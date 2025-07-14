@@ -44,3 +44,4 @@ resource law 'Microsoft.OperationalInsights/workspaces@2023-01-01-preview' = {
 
 output eventHubId string = eh.id
 output lawId string = law.id
+output lawName string = law.name
