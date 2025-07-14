@@ -31,7 +31,7 @@ resource eh 'Microsoft.EventHub/namespaces/eventhubs@2023-01-01-preview' = {
 }
 
 // Log Analytics
-resource law 'Microsoft.OperationalInsights/workspaces@2023-10-01' = {
+resource law 'Microsoft.OperationalInsights/workspaces@2023-01-01-preview' = {
   name: workspaceName
   location: resourceGroup().location
   sku: {
