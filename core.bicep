@@ -25,7 +25,7 @@ resource eh 'Microsoft.EventHub/namespaces/eventhubs@2023-01-01-preview' = {
   name: eventHubName
   parent: ehNamespace
   properties: {
-    messageRetentionInDays: 7
+    messageRetentionInDays: 1
     partitionCount: 4
   }
 }
