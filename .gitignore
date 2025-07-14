@@ -1,0 +1,7 @@
+*.json
+*.tmp
+*.bak
+.vscode/
+.bicep/
+__playground__/
+parameters/*.local.json
